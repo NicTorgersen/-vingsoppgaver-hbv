@@ -23,19 +23,15 @@
 <body>
     <h1>Skriv inn fornavn, etternavn og alder</h1>
     <form method="POST" action="process.php">
-        <label>Fornavn:
-            <input name="first_name" type="text">
+        <label>Tall 1:
+            <input name="num1" type="number">
             <div style="clear: both;"></div>
         </label>
-        <label>Etternavn:
-            <input name="last_name" type="text">
+        <label>Tall 2:
+            <input name="num2" type="number">
             <div style="clear: both;"></div>
         </label>
-        <label>Alder:
-            <input name="age" type="number">
-            <div style="clear: both;"></div>
-        </label>
-        <input type="submit">
+        <input type="submit" value="Fortsett">
         <input type="reset">
         <div style="clear: both;"></div>
     </form>
